@@ -1,3 +1,9 @@
-<h1>Hello World</h1>
-<p>This is Mar, tring to finish Rails! :/</p>
+<h1><%= @greeting %></h1>
+<%= render 'name' %>
 <p><%= @info %></p>
+
+<% if @answer == true %>
+<p><%= @isTrue %></p>
+<% else %>
+<p><%= @isFalse %></p>
+<% end %>
