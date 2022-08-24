@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
   
   def hello
-    @greeting = 'Hello World'
+    @greeting = 'Hello, World!'
     @info = 'This is a new info'
     @answer = false
     @isTrue = 'This variable is true'
