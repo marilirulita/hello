@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'pages#hello'
   get '/greeting', to: 'custom_pages#hello'
 
